@@ -1,6 +1,6 @@
 function arrayManipulator(nums, commands) {
     for (let command of commands) {
-        let tokens = command.split(` `)
+        let tokens = command.split(` `);
         let action = tokens.shift();
         console.log(action);
 }
